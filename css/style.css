@@ -1,0 +1,212 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+*/
+
+
+.title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3.5em;
+  color: #981b1c;
+  position: absolute;
+  top: 40%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+}
+
+
+
+.dropbtn {
+    background-color:transparent;
+    color: white;
+    font-size: 3em;
+    border: none;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+
+.dropdown {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5em;
+    margin-left: 20%;
+}
+
+
+.dropdown-content a:hover {color: #981b1c;}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+.dropdown:hover .dropbtn {
+    color: black;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+.dropdown{
+
+    position:absolute;
+    z-index: 3;
+
+    }
+  }
+
+
+
+.jumbotron{
+ 
+    background-image: url(../images/fondo1.jpg);
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+
+
+
+.middle{
+  background-image:url(../images/fondo2.png); 
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+     
+}
+
+
+
+.music {
+  margin-top: 4%;
+  color: #981b1c;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2em;
+  float: center;
+  position: absolute;
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+  
+}
+
+#sonido1 {
+  float: center;
+  position: absolute;
+  margin-top: 40%;
+  left: 22%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-22%, -22%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+}
+
+#sonido2 {
+  float: center;
+  position: absolute;
+  margin-top: 42%;
+  left: 78%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-78%, -78%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+}
+
+
+#tres {
+  background-color: white;
+  background-image: url(../images/fondo3.png);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+     
+}
+
+/*botones*/
+
+.botones {
+  text-align: center !important;
+  padding-top: 3%;
+  font-size: 3em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 70px;
+  text-align: center !important;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    text-decoration: none;
+  color: black;
+}
+
+.fa-facebook {
+  color: white;
+  
+}
+
+.fa-twitter {
+  color: white;
+  
+}
+
+
+.fa-youtube {
+  color: white;
+  
+}
+
+.fa-instagram {
+  color: white;
+  
+}
+
+/* fin botones*/
+
+
+
+footer a {
+  text-align:center !important;
+}
+
+footer {
+    width: 100%;
+    background-size: 100%;
+    background-color: #981b1c;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+footer p {
+    padding: 5%;
+    text-align: center;
+    float: center !important;
+    color: white;
+}
+
+
+
+
